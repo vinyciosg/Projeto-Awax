@@ -4,7 +4,7 @@
 
 
 :root {
-    --cor-text1:#5D4D39;
+    --cor-text1:#b28756;
     --font1: "Montserrat", sans-serif;
 }
 
@@ -13,6 +13,10 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: var(--font1);
+}
+
+body {
+    margin-bottom: 300px;
 }
 
 header {
@@ -29,10 +33,9 @@ header {
     margin: auto;
 }
 
-div .img {
+div .img1 {
     width: 100px;
-    height: 100px;
-    padding-top: 15px;
+    margin-top: 15px;
     text-align: center;
 }
 
@@ -46,7 +49,97 @@ nav {
 .menu a {
     color: #fff;
     text-decoration: none;
-    padding: 5px;
+    padding: 40px 7px 36px 7px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: gray;
+    border-bottom: 5px solid  #b28756;
+    transition: 0.1s;
+}
+
+.menu .menu1 {
+    color: gray;
+    border-bottom: 5px solid #b28756;
+}
+
+.banner1 {
+    display: flex;
+    background: url(imagens-complementos/banner-01.png);
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.cont1-text {
+    margin: auto;
+    margin-top: 180px;
+}
+
+.cont1-text h1 {
+    color: white;
+    font-size: 60px;
     
 }
 
+.cont1-text .text-cor {
+    color: var(--cor-text1);
+}
+
+.cont1-text p {
+    display: inline-block
+}
+
+.cont1-text p {
+    color: #ffff;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.cont1-text a {
+    background-color: var(--cor-text1);
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    width: 220px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 325px;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.points {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.points a{
+   background-color: transparent    ;
+    margin: auto;
+    width: 15px;
+    height: 15px;
+    margin-left: 15px;
+    padding: 7px;
+    border: 2px solid #b28756;
+    border-radius: 50px;
+}
+
+.points a:hover {
+    background-color: var(--cor-text1);
+    transition: 0.3s;
+}
+
+.points .points1 {
+    background-color: var(--cor-text1);
+}
