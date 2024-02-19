@@ -16,7 +16,7 @@
 }
 
 body {
-    margin-bottom: 300px;
+    margin-bottom: 30px;
 }
 
 header {
@@ -142,4 +142,62 @@ nav {
 
 .points .points1 {
     background-color: var(--cor-text1);
+}
+
+.section2 {
+    height: 500px;
+}
+
+.banner2 {
+    margin: auto;
+    padding: 60px 0px 60px 0px;
+    max-width: 1170px;
+}
+
+.banner2 .section-text1 {
+    text-align: center;
+}
+
+.banner2 .section-text1 h2 {
+    font-size: 35px;
+    
+}
+
+.banner2 .section-text1 p {
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.banner2 .conteudo {
+    display: flex;
+    width: 1060px;
+    height: 350px;
+    
+}
+
+.banner2 .conteudo p {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 35px;
+}
+
+.banner2 .conteudo .link {
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    background-color: var(--cor-text1);
+    color: #fff;
+    text-decoration: none;
+    
+    padding:18px;
+    border-radius: 30px;
+}
+
+.conteudo img{
+
+    box-shadow: 1px 1px 10px; 
+    margin-right: -50px;
+    
 }
