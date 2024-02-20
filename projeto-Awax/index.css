@@ -1,11 +1,17 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+
+
 
 
 :root {
     --cor-text1:#b28756;
     --font1: "Montserrat", sans-serif;
+    --font2: "Montserrat", sans-serif;
 }
 
 * {
@@ -146,11 +152,12 @@ nav {
 
 .section2 {
     height: 500px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .banner2 {
     margin: auto;
-    padding: 60px 0px 60px 0px;
     max-width: 1170px;
 }
 
@@ -177,7 +184,7 @@ nav {
 }
 
 .banner2 .conteudo p {
-    font-family: sans-serif;
+    font-family:var(--font2);
     font-size: 16px;
     line-height: 25px;
     margin-bottom: 35px;
@@ -190,7 +197,6 @@ nav {
     background-color: var(--cor-text1);
     color: #fff;
     text-decoration: none;
-    
     padding:18px;
     border-radius: 30px;
 }
@@ -200,4 +206,69 @@ nav {
     box-shadow: 1px 1px 10px; 
     margin-right: -50px;
     
+}
+
+.section3 {
+   
+    background-color: black;
+}
+
+.banner3 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 45px;
+    height: 430px;
+    width: 100%;
+}
+
+.banner3-text {
+    color: white;
+}
+
+.banner3-text1 h2 {
+    font-size: 35px;
+}
+
+.banner3-text2 p {
+    font-family: var(--font2);
+    font-size: 16px;
+    color: gray;
+    padding-top: 20px;
+    padding-bottom: 48px;
+}
+
+.banner3-img {
+   color: white;
+   display: flex;
+   align-items: center;
+   margin: auto;
+   max-width: 1170px;
+}
+
+.banner3-img div {
+    width: 285px;
+    height: 180px;
+    border-left: 1px solid rgba(128, 128, 128, 0.71);
+}
+
+.banner3-img-border {
+    border-right: 1px solid gray;
+}
+
+.banner3-img h2 {
+    margin: auto;
+    font-size: 1.3em;
+    width: 206px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.banner3-img p {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.banner3-img img {
+
 }
