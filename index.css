@@ -266,3 +266,86 @@ nav {
     font-size: 0.8em;
     color: gray;
 }
+
+.section4-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section4-title {
+    text-align: center;
+}
+
+.section4-title h2 {
+    font-size: 2.3em;
+}
+
+.section4-des {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.section4-des p {
+    color: rgba(128, 128, 128, 0.592);
+    font-family: var(--font2);
+    font-weight: bold;
+}
+
+.section4-conteudo {
+    max-width: 1170px;
+    margin: auto;   
+}
+
+.section4-links {
+    border: 1px solid  rgba(128, 128, 128, 0.556);
+    border-radius: 35px;
+    background-color: #EDE9E9;
+    margin: auto;
+    width: 760px;
+    padding: 20px 15px;
+    margin-bottom: 40px;
+   
+}
+
+.section4-links a {
+    color: black;
+    border-right: 1px solid rgba(128, 128, 128, 0.532);
+    padding: 16px 24px;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.section4-links .border1 {
+    border-bottom: 4px solid #B28756;
+}
+
+.section4-links .border2 {
+    border: none;
+}
+
+.section4-links a:hover {
+    border-bottom: 4px solid  #B28756;
+}
+
+.section4-img  {
+    padding: 10px 10px 10px 13px; 
+    text-align: center;
+}
+ 
+.section4-button {
+    text-align: center;
+    margin-top: 50px;
+   
+}
+
+.section4-button a {
+    color: white;
+    text-decoration: none;
+    background-color: #B28756;
+    padding: 20px 40px 20px 40px;
+    border-radius: 40px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
