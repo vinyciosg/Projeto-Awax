@@ -15,6 +15,7 @@
 }
 
 * {
+    scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -328,10 +329,44 @@ nav {
     border-bottom: 4px solid  #B28756;
 }
 
-.section4-img  {
-    padding: 10px 10px 10px 13px; 
-    text-align: center;
+.section4-body1 {
+   display: inline-block;
+   padding-left: 25px;
+   margin: 10px;
+   width: 255px;
+   height: 165px;
+   cursor: pointer;
 }
+
+.section4-cursor {
+    background-color:   rgba(0, 0, 0, 0.5);
+    color: #FFFF;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    display: none;
+    
+}
+
+.section4-cursor1 {
+    background-color:   rgba(0, 0, 0, 0.5);
+    color: #FFFF;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+   
+ 
+}
+
+.section4-cursor h2 , .section4-cursor1  h2 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
  
 .section4-button {
     text-align: center;
