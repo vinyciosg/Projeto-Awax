@@ -472,3 +472,47 @@ nav {
     cursor: pointer;
     transition: 0.2s;
 }
+
+.section6-container {
+    padding-top: 60px;
+    padding-bottom: 45px;
+    
+}
+
+.section6-container .title {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.section6-container .des {
+    color: rgba(128, 128, 128, 0.827);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 75px;
+
+}
+
+.section6-container .conteudo {
+    text-align: center;
+}
+
+.section6-container .profile {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.profile img {
+    box-shadow: none;
+    margin-right: 0;
+}
+
+.profile .title2 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.profile .des2 {
+    font-weight: bold;
+}
+
