@@ -754,3 +754,93 @@ nav {
    padding: 20px;
    cursor: pointer;
 }
+
+.section10 {
+    background-color: black;
+}
+
+.section10-container {
+    padding-top: 55px;
+    padding-bottom: 80px;
+}
+
+.section10-title {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.section10-des {
+    text-align: center;
+    color: rgb(128, 128, 128);
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.section10-conteudo {
+    color: white;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section10-conteudo1  {
+    text-align: center;
+    height: 240px;      
+    border-left: 1px solid rgba(128, 128, 128, 0.201);
+}
+
+.section10-conteudo4 {
+    text-align: center;
+    height: 240px;      
+    border-left: 1px solid  rgba(128, 128, 128, 0.201);
+    border-right: 1px solid rgba(128, 128, 128, 0.201);
+}
+
+.section10-conteudo1 .value , .section10-conteudo4 .value {
+    color: #B28756;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+.section10-conteudo1 .bar , .section10-conteudo4 .bar {
+    background-color: gray;
+    margin: auto;
+    width: 20px;
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section10-conteudo1 .text0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-bottom: 30px;
+    
+}
+
+.section10-conteudo1 .text1 , .section10-conteudo4 .text1 {  
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-bottom: 60px;
+}
+
+.section10-conteudo1 .text1-500 {  
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-bottom: 30px;
+}
+
+.section10-conteudo1 .text2 , .section10-conteudo4 .text2{
+    color: gray;
+}
+
