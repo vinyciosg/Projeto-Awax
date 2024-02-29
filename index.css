@@ -12,7 +12,7 @@
 }
 
 * {
-    scroll-behavior: smooh;
+    scroll-behavior: smooth;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -609,6 +609,7 @@ nav {
     margin: auto;
     border-radius: 50px;
     border: 10px 10px 10px black;
+    cursor: pointer;
 }
 
 .section8-preco1:hover {
