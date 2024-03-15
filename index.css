@@ -20,7 +20,6 @@
 }
 
 body {
-    margin-bottom: 30px;
     background-color: #F7F7F7;
 }
 
@@ -991,3 +990,142 @@ nav {
     cursor: pointer;
 }
 
+.section13-map {
+    display: flex;
+    align-items: center;    
+    padding: 20px 200px ;
+    background: url(projeto-Awax/icones/mapa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    width: 100%;
+    height: 450px;
+}
+
+.section13-corpo {
+    padding:40px;
+    color: gray;
+    background-color: white;
+    width: 580px;
+    height: 370px;
+}
+
+.section13-img {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.section13-img > .img-fundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AEAEAE;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.section13-img p {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    margin-left: 20px;
+    
+}
+
+.footer-container {
+    background-color: black;
+    color: white;
+    height: 290px;
+}
+
+.footer-body {
+    display: flex;
+    max-width: 1220px;
+    height: 290px;
+    margin: auto;
+    padding: 30px 8px;
+}
+
+.footer-body1 {
+    width: 400px;
+    height: 100%;
+}
+
+.footer-body-imgs {
+  display: flex;
+}
+
+.footer-body-imgs div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
+    background-color: #6d6c6c;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer-body1 p {
+    margin-top: 150px;
+    font-weight: 600;
+}
+
+.footer-body2 {
+    width: 400px;
+    height: 100%;
+    margin: 0px 20px
+}
+
+.footer-body2 p {
+    
+    color: rgb(151, 151, 151);
+    font-size: 0.9em;
+    line-height: 22px;
+}
+
+.footer-body3 {
+    border-radius: 10px;
+    padding: 0px 5px;
+    width: 370px;
+    height: 100%;
+    background-color: #373737;
+}
+
+.footer-body3-des {
+    width: 240px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+   
+}
+
+.footer-body3-des p {
+    font-size: 0.9em;
+    color: #AEAEAE;
+    font-weight: 600;
+
+}
+
+.footer-body3-des > .footer-border {
+    border: 1px solid rgb(157, 157, 157);
+    margin-top: 15px;
+    margin-bottom: 40px
+}
+
+.footer-body3-buttom {
+    background-color: #b28756;
+    margin: auto;
+    width: 210px;
+    padding: 20px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.footer-body3-buttom p {
+    text-align: center;
+}
