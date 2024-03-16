@@ -49,10 +49,14 @@ nav {
     
 }
 
-.menu a {
+.column {
+    margin-top: 34px;
+}
+
+.menu a{
     color: #fff;
     text-decoration: none;
-    padding: 50px 10px 46px 7px;
+    padding: 50px 10px 46px 3px;
     font-size: 15px;
     font-weight: bold;
 }
@@ -63,9 +67,14 @@ nav {
     transition: 0.1s;
 }
 
-.menu .menu1 {
+.menu1 {
     color: gray;
     border-bottom: 5px solid #b28756;
+}
+
+.menu-burguer {
+   float: right;
+   display: none;
 }
 
 .banner1 {
@@ -1128,4 +1137,64 @@ nav {
 
 .footer-body3-buttom p {
     text-align: center;
+}
+
+
+/* Todas as demais midias */
+
+/* Typical Device Breakpoints 
+----------------------------
+Pequenas telas: 320px a 480px
+Celular: vao de  481px até 768px
+Tablet: 769px até 1024px
+Dasktop: 1025px até 1200px
+Grandes telas: acima de 1201px
+
+*/
+
+@media (min-width: 450px) and (max-width:800px) {
+    nav  {
+        position: absolute;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70%;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+
+    .column a ,.menu1{
+       border: 0;
+       float: le;
+       display: block;
+       padding: 25px;
+       height: 0px;
+       font-weight: bolder;
+       font-size: 24px;
+       margin-bottom: 5px;
+    }
+
+    .column {
+        margin-right: 150px;
+        margin-top: -100px;
+    }
+
+  
+
+    .menu .column a:hover{
+       border: 0;
+       color: #b28756;
+    }
+
+    .header {
+        margin: 0;
+    }
+
+    .menu-burguer {
+        width: 40px;
+        display: flex;
+        margin-left: 380px;
+        margin-top: 40px;
+    }
+  
 }

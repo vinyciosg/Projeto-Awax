@@ -7,24 +7,44 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    
+      <script>
+        window.onload = function(){
+            document.querySelector(".menu-burguer").addEventListener("click", function(){
+                if(document.querySelector("nav").style.display == 'flex') {
+                    document.querySelector("nav").style.display = 'none';
+                } else {
+                    document.querySelector("nav").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+    
     <header>
         <div class="header">
             <div class="img1">
               <img src="projeto-Awax/icones/Logo.png" alt="" width="75px">
             </div>
-            <nav>
-                <div class="menu">
-                    <a class="menu1" href="#">HOME</a>
-                    <a href="#">ABOUT US</a>
-                    <a href="#">SERVICES</a>
-                    <a href="#">OUR PROJECTS</a>
-                    <a href="#">OUR TEAM</a>
-                    <a href="#">HAPPY CLIENTS</a>x
-                    <a href="#">PRICE</a>
-                    <a href="#">SOME FACTS</a>
-                    <a href="#">CONTACT US</a>
-                </div>
-            </nav>
+            
+              <div class="menu">
+                      <img class="menu-burguer" src="projeto-Awax/icones/menu.png" alt="">
+                    <nav>
+                      
+                      <div class="column">
+                        <a class="menu1" href="#">HOME</a>
+                        <a href="#">ABOUT US</a>
+                        <a href="#">SERVICES</a>
+                        <a href="#">OUR PROJECTS</a>
+                        <a href="#">OUR TEAM</a>
+                        <a href="#">HAPPY CLIENTS</a>
+                        <a href="#">PRICE</a>
+                        <a href="#">SOME FACTS</a>
+                        <a href="#">CONTACT US</a>
+                      </div>
+                        
+                    </nav>
+              </div>
+            
         </div>
     </header>
    
