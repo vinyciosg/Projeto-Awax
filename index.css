@@ -21,6 +21,11 @@
 
 body {
     background-color: #F7F7F7;
+    
+}
+
+main {
+    overflow: hidden;
 }
 
 header {
@@ -88,7 +93,7 @@ nav {
 
 .cont1-text {
     margin: auto;
-    margin-top: 180px;
+    margin-top:80px;
 }
 
 .cont1-text h1 {
@@ -414,7 +419,7 @@ nav {
    
 }
 
-.section5-photos1 {
+.section5-photos1 , .section5-photos-1{
     border-radius: 10px;
     background-color: white;
     height: 420px;
@@ -423,15 +428,15 @@ nav {
     text-align: center;
 }
 
-.section5-photos1 img {
+.section5-photos1 img , .section5-photos-1 img{
     padding: 30px 0px 30px 0px ;
 }
 
-.section5-photos1 h2 {
+.section5-photos1 h2 , .section5-photos-1 h2 {
     font-weight: 500;
     font-size: 1.4em;
 }
-.section5-photos1 p {
+.section5-photos1 p , .section5-photos-1 p{
    padding-top: 8px;
    padding-bottom: 30px;
 }
@@ -913,10 +918,7 @@ nav {
     font-weight: bolder;
 }
 
-.section12-formulario {
-    width: 600px;
-    background-color: sk;
-}
+
 
 .section12-formulario label {
     color: gray;
@@ -1153,6 +1155,9 @@ Grandes telas: acima de 1201px
 */
 
 @media (min-width: 320px) and (max-width:480px) {
+
+  
+
     nav  {
         position: absolute;
         z-index: 99;
@@ -1205,6 +1210,10 @@ Grandes telas: acima de 1201px
        background-position: left;
     }
 
+    .cont1-text {
+        margin-top: 180px;
+    }
+
     .cont1-text h1 {
         font-size: 35px;
     }
@@ -1233,18 +1242,236 @@ Grandes telas: acima de 1201px
     }
 
     .conteudo a {
-        margin: auto;
+        margin-left: 110px
+    
     }
 
     .foto {
         width: 370px;
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 30px;    
     }
 
     .foto img {
         width: 100%;
         background-size: cover;
-        background-position: ;
+    }
+
+    .banner3 {
+        height:1050px;
+    }
+
+    .banner3-img, .banner3-img div{
+        display: inline-block;
+        border: 0;
+        margin-bottom: 20px;
+    }
+
+    .banner3-img p {
+        margin: auto;
+        width: 190px;
+    }
+
+    .section4-links {
+        height: 100px;
+        width: 390px;
+    }
+
+    .section4-links a {
+        margin-left: 20px;
+        padding: 0px 5px;
+    }
+
+    .section4-body1 {
+        margin: auto;
+        margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section5-photos-1 {
+        display: none;
+    }
+
+    .profile p {    
+        width: 350px;
+        margin-left: 40px;
+        line-height: 25px;
+    }
+
+    .section7-imgs {
+       display: flex;
+       justify-content:  space-evenly;
+    }
+
+    .section7-imgs .img2 {
+        display: none;
+    }
+    
+
+    .section8-precos {
+        display: inline-block;
+        margin-left: 80px;
+    }
+
+    .section8-preco1 {
+        margin-bottom: 35px;
+    }
+
+    .section9-conteudo {
+        display: inline-block;
+    }
+
+    .section9-img img {
+        width: 330px;
+        display: flex;
+        margin: auto;
+        margin-left: 70px;
+        margin-top: -70px;
+    }
+
+    .section9-list {
+        margin-top: 50px;
+        margin-left: 60px
+    }
+
+    .section9-list1 img {
+        width: 40px;
+        margin-bottom: 20px;
+    }
+
+    .section9-list1 p {
+        width: 340px;
+    }
+
+    .section9-list2 img{
+        margin-bottom: 30px;
+    }
+
+    .section10-container {
+        padding-bottom: 30px;
+    }
+
+    .section10-conteudo {
+        display: inline-block;
+        margin: auto;
+        margin-left: 20px;
+    }
+
+    .section10-conteudo1,
+    .section10-conteudo4 {
+        border: 0;
+    }
+
+    .section10-conteudo1 .text0, 
+    .section10-conteudo1 .text1,
+    .section10-conteudo4 .text1,
+    .section10-conteudo1 .text1-500{
+        font-size: 1.2em;
+    }
+
+    .section10-conteudo1 .text2,
+    .section10-conteudo4 .text2 {
+        margin-left: 10px;
+    }
+
+    .section11-container div{
+        margin-right: 0px;
+    }
+
+    .section11-share .img-none, .section11-share p {
+        display: none;
+    }
+
+    .section11-img p {
+        margin-right: 7px;
+    }
+
+    .section12-des {
+        margin: auto;
+        width: 400px;
+        margin-bottom: 50px;
+    }
+
+    .section12-formulario1 {
+        display: inline-block;
+        text-align: center;
+        width: 420px;
+        margin-left: 20px;
+    }
+
+    .section12-formulario1 div {
+        display: inline-block ;
+        width: 300px;
+    }
+
+    .section12-formulario2 input{ 
+        width: 200px;
+    }
+
+    .section12-formulario2 div {
+        margin: auto;
+        margin-right: 60px;
+        width: 300px;
+        margin-bottom: 70px;
+    }
+
+    .section12-formulario3 input {
+        width: 200px;
+    }
+
+    .section12-formulario3 div {
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .section13-map {
+        padding: 0;
+    }
+
+    .section13-corpo {
+        margin: auto;
+        width: 400px;
+    }
+    
+    .section13-img p {
+        margin-left: 30px;
+        width: 260px;
+    }
+
+    .section13-img > .img-fundo {
+        width: 45px;
+    }
+
+    .footer-body {
+        display: inline-block;
+    }
+
+    .footer-container {
+        height: 750px;
+    }
+
+    .footer-body1 {
+        height: 150px;
+    }
+
+    .footer-body-imgs {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-body1 p {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 20px
+    }
+
+    .footer-body2 p {
+        margin: auto;
+        width: 350px;
+    }
+
+    .footer-body3 {
+        margin: auto;
+        width: 330px;
     }
 }
